@@ -1,14 +1,45 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <p>
+      <html style="height:100%;margin:0;">
+
+          <head>
+              <meta charset="utf-8" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <title>Pip&#39;s Ticket Counter</title>
+              <link rel="stylesheet" href="bootstrap.min.css" />
+              <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700" />
+              <link rel="stylesheet" href="Features-Blue.css" />
+              <link rel="stylesheet" href="Footer-Dark.css" />
+              <link rel="stylesheet" href="Header-Dark-1.css" />
+              <link rel="stylesheet" href="Header-Dark.css" />
+              <link rel="stylesheet" href="Highlight-Red.css" />
+              <link rel="stylesheet" href="styles.css" />
+          </head>
+          
+          <body>
+              <h1 class="text-center" style="color:rgb(255,255,255);padding-top:130px;"> Pip&#39;s Ticket Counter</h1>
+              <div id="awesome-container">
+                  <div id="log-in" class="container" style="display:none;background-color:rgba(0,0,0,0.6);">
+                      <form name="log-in">
+                          <ul class="flex-outer">
+                              <li><span class="label label-default">User Name </span></li>
+                              <li><span class="label label-default">Password </span></li>
+                          </ul><input class="form-control" type="text" required placeholder="Enter your user name here" /><input class="form-control" type="password" required placeholder="Enter your password here" id="entry-field" />
+                          <div class="checkbox"><label><input type="checkbox" id="toggle" />Show Password</label></div><button class="btn btn-warning" type="button">Sign Up</button><button class="btn btn-info" type="submit">Log In</button></form>
+                  </div>
+                  <div id="register" class="container" style="display:block;background-color:rgba(0,0,0,0.6);">
+                      <form name="sign-up">
+                          <ul class="flex-outer">
+                              <li><span class="label label-default">User Name </span></li>
+                              <li><span class="label label-default">Password </span></li>
+                              <li><span class="label label-default">Pip&#39;s Auth Key</span></li>
+                          </ul><input class="form-control" type="text" required placeholder="Enter your user name here" /><input class="form-control" type="text" required placeholder="Enter your password here" /><input class="form-control" type="text" required placeholder="Enter authentication key"
+                          /><button class="btn btn-warning" type="button">Log In</button><button class="btn btn-info" type="submit">Sign Up</button></form>
+                  </div>
+              </div>
+
+    <!-- <p>
       See the <a href="https://github.com/brave/muon/blob/master/docs/api/ipc-renderer.md">ipcRenderer docs</a> for information on how to communicate with the main process.
-    </p>
+    </p> -->
   </body>
   <script src="renderer.js"></script>
 </html>

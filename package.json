@@ -4,7 +4,8 @@
   "description": "A minimal Muon application",
   "main": "main.js",
   "scripts": {
-    "start": "node setup.js"
+    "start": "node setup.js",
+    "devstart": "nodemon setup.js"
   },
   "repository": "https://github.com/brave/muon-quick",
   "keywords": [
@@ -17,6 +18,21 @@
   "author": "Brave Software",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "brave/electron-prebuilt"
+    "electron": "brave/electron-prebuilt",
+    "electron-prebuilt": "github:brave/electron-prebuilt",
+    "nodemon": "^1.14.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "imdb-api": "^3.1.2",
+    "mongoose": "^4.13.7",
+    "mysql2": "^1.5.1",
+    "request": "^2.83.0",
+    "sequelize": "^4.28.6",
+    "serve-favicon": "^2.4.5"
   }
 }
