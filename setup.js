@@ -1,3 +1,9 @@
+const Amplify = require('aws-amplify').Analytics;
+const aws_exports = require('./awsmobilejs/#current-backend-info/aws-exports.js');
+const withAuthenticator = require('aws-amplify-react');
+Amplify.configure(aws_exports);
+
+
 const path = require('path')
 const spawn = require('child_process').spawn
 
@@ -26,3 +32,4 @@ muon.on('SIGINT', () => {
   electron.kill('SIGINT')
 })
 
+module.exports = withAuthenticator(App);
