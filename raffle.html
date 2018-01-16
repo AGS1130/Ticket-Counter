@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pip's Ticket Counter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <div class="highlight-red">
+        <div class="buttons"><button class="btn btn-primary" type="button" id="go-back">Go Back</button></div>
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">{{Movie Title Within 36 Hours}} </h2>
+            </div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="#">&lt;&lt; Prev Film</a><a class="btn btn-primary" role="button" href="#">Done </a><a class="btn btn-primary" role="button" href="#">Next Film &gt;&gt;</a></div>
+        </div>
+    </div>
+    <div class="features-black">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Raffle </h2>
+                <p class="text-center" id="raffle-buttons"><button class="btn btn-primary" type="button">Raffle One Name</button><button class="btn btn-primary" type="button">Raffle All Names</button></p>
+            </div>
+            <div class="row features">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <h2>Winner:</h2>
+                    <h3>{{Attendee Name}} </h3>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <h2>{{Movie Title}} </h2>
+                    <h3>{{black-tie?}} </h3>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+    <a href="#"><p><i class="glyphicon glyphicon-remove"></i> Declined</p></a>
+    <a href="#"><p><i class="glyphicon glyphicon-ok"></i> Accepted</p></a>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

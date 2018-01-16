@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pip's Ticket Counter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <div>
+        <div class="header-dark" style="background-image:url(&quot;none&quot;);background-color:rgba(0,0,0,0.6);">
+            <nav class="navbar navbar-default navigation-clean-search">
+                <div class="container">
+                    <div class="navbar-header"><a class="navbar-brand" href="#">Pip's Ticket Counter</a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+                    <div
+                        class="collapse navbar-collapse" id="navcol-1">
+                        <form class="navbar-form navbar-left" target="_self">
+                            <div class="form-group"><label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label><input class="form-control search-field" type="search" name="search" placeholder="Search for films" id="search-field"></div>
+                        </form>
+                        <p class="navbar-text navbar-right"> <a class="btn btn-default action-button" role="button" href="/menu.html">Go Back</a></p>
+                </div>
+        </div>
+        </nav>
+        <div class="container">
+            <div class="row" id="selection-ok">
+                <div class="col-md-12">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="hidden">
+                                <tr>
+                                    <th>Column 1</th>
+                                    <th>Column 2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h3 class="text-center" id="manipulate-title">Event Title</h3><img src="https://www.printingincannes.com/wp-content/uploads/2017/05/blog_festival_de_cannes.jpg" width="180px" height="270px" id="poster"></td>
+                                    <td>
+                                        <h3 id="summary">Summary </h3>
+                                        <p><a href="#">Add a Plot</a> &gt;&gt; Add a sumary of the event or film to be raffled off for Cannes.</p>
+                                    </td>
+                                    <td>
+                                        <h3 class="text-center" id="schedule-tickets">Schedule &amp; Tickets</h3>
+                                        <p>Time of event:</p><input type="time" style="color:rgb(118,118,118);">
+                                        <div class="checkbox"><label><input type="checkbox">Black-Tie Event</label></div><input type="number" placeholder="Number of tickets" style="color:rgb(0,0,0);">
+                                        <div class="btn-group" role="group" style="padding-top:1em;"><button class="btn btn-default" type="button" style="margin-right:1em;">Back to Table</button><button class="btn btn-default" type="button">Save </button></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer-dark" style="background-color:rgba(0,0,0,0.6);">
+        <footer>
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2 class="text-center">Next Raffle in {{00:00:00}}</h2>
+                        <h3 class="text-center" style="color:rgba(200, 164, 97, 0.6);">{{Today's Date}}</h3>
+                        <div>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead class="hidden">
+                                        <tr>
+                                            <th>Column 1</th>
+                                            <th>Column 2</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Sun </td>
+                                            <td>Mon </td>
+                                            <td>Tue </td>
+                                            <td>Wed </td>
+                                            <td>Thu </td>
+                                            <td>Fri </td>
+                                            <td>Sat </td>
+                                        </tr>
+                                        <tr class="dates">
+                                            <td>Sun </td>
+                                            <td>Mon </td>
+                                            <td>Tue </td>
+                                            <td>Wed </td>
+                                            <td>Thu </td>
+                                            <td>Fri </td>
+                                            <td>Sat </td>
+                                        </tr>
+                                        <tr class="dates">
+                                            <td>Sun </td>
+                                            <td>Mon </td>
+                                            <td>Tue </td>
+                                            <td>Wed </td>
+                                            <td>Thu </td>
+                                            <td>Fri </td>
+                                            <td>Sat </td>
+                                        </tr>
+                                        <tr class="dates">
+                                            <td>Sun </td>
+                                            <td>Mon </td>
+                                            <td>Tue </td>
+                                            <td>Wed </td>
+                                            <td>Thu </td>
+                                            <td>Fri </td>
+                                            <td>Sat </td>
+                                        </tr>
+                                        <tr class="dates">
+                                            <td>Sun </td>
+                                            <td>Mon </td>
+                                            <td>Tue </td>
+                                            <td>Wed </td>
+                                            <td>Thu </td>
+                                            <td>Fri </td>
+                                            <td>Sat </td>
+                                        </tr>
+                                        <tr class="dates">
+                                            <td>Sun </td>
+                                            <td>Mon </td>
+                                            <td>Tue </td>
+                                            <td>Wed </td>
+                                            <td>Thu </td>
+                                            <td>Fri </td>
+                                            <td>Sat </td>
+                                        </tr>
+                                        <tr class="dates">
+                                            <td>Sun </td>
+                                            <td>Mon </td>
+                                            <td>Tue </td>
+                                            <td>Wed </td>
+                                            <td>Thu </td>
+                                            <td>Fri </td>
+                                            <td>Sat </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="footer-dark" style="background-color:rgba(0,0,0,0.6);">
+        <footer>
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>{{DISPLAY SELECTED DATE AND INFO}} </h2>
+                        <ul></ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <h2>Showing at:</h2>
+                        <h2>{{Time}} </h2>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <h2>{{Movie Title}} </h2>
+                        <h3>{{black-tie?}} </h3>
+                        <h3>{{# of tickets}} </h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+    <a href="#"><p><i class="glyphicon glyphicon-remove"></i> Remove</p></a>
+    <a href="#"><p><i class="glyphicon glyphicon-pencil"></i> Edit</p></a>
+</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

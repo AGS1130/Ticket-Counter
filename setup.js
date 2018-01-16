@@ -1,7 +1,7 @@
 const Amplify = require('aws-amplify').Analytics;
 const aws_exports = require('./awsmobilejs/#current-backend-info/aws-exports.js');
-const withAuthenticator = require('aws-amplify-react');
-Amplify.configure(aws_exports);
+// const withAuthenticator = require('aws-amplify-react');
+// Amplify.configure(aws_exports);
 
 
 const path = require('path')
@@ -32,4 +32,4 @@ muon.on('SIGINT', () => {
   electron.kill('SIGINT')
 })
 
-module.exports = withAuthenticator(App);
+// module.exports = withAuthenticator(App);

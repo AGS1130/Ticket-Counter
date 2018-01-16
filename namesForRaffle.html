@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pip's Ticket Counter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        <h1 class="text-center">Select an Event</h1>
+                    </th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <div class="table-responsive">
+        <table class="table">
+            <thead class="hidden">
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwj2xNCgsqbYAhWGjlQKHUzRAvQQjRwIBw&amp;url=http%3A%2F%2Fenglishriverwebsite.com%2FPointerHistory%2FPedigrees%2Fgovernor_moscow_litter.html&amp;psig=AOvVaw3jKZt65BgdLIMwAQ1hCpIc&amp;ust=1514333554745069"
+                            class="raffle-images" data-toggle="modal" data-target="#enter-raffle-modal">
+                        <p>Event Name</p>
+                        <p>Event Showing</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="enter-raffle-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header hidden"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">Modal Title</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="table-responsive disappear">
+                        <table class="table">
+                            <thead class="hidden">
+                                <tr>
+                                    <th>Column 1</th>
+                                    <th>Column 2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h3 class="text-center" id="manipulate-title">Event Title</h3><img src="https://www.printingincannes.com/wp-content/uploads/2017/05/blog_festival_de_cannes.jpg" width="180px" height="270px" id="poster"></td>
+                                    <td>
+                                        <h3 id="summary">Summary </h3>
+                                        <p><a href="#">Add a Plot</a> &gt;&gt;</p>
+                                    </td>
+                                    <td>
+                                        <h3 class="text-center" id="schedule-tickets">Schedule &amp; Tickets</h3>
+                                        <p>{{SET DATE AND TIME}} </p>
+                                        <p>{{BLACKTIE?}} </p>
+                                        <p>{{# OF TICKETS}} </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <h1 class="text-center">{{Intern's Name}} </h1>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="hidden">
+                                    <tr>
+                                        <th>Column 1</th>
+                                        <th>Column 2</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div id="reminder">
+                                                <p>Send me a reminder:</p>
+                                                <div class="radio"><label><input type="radio">Text Me</label></div>
+                                                <div class="radio"><label><input type="radio">Messenger</label></div>
+                                                <div class="radio"><label><input type="radio">Slack</label></div>
+                                            </div>
+                                            <div id="pickup">
+                                                <p>Have someone pick up for me:</p>
+                                                <div class="radio"><label><input type="radio">Trail Leader</label></div>
+                                                <div class="radio"><label><input type="radio">Friend</label></div><input type="text" required="" placeholder="Enter their phone number"></div>
+                                        </td>
+                                        <td>
+                                            <p>Your Stats:</p>
+                                            <p>Number of Tickets Won: {{}}</p>
+                                            <p>Number of Star's Remaining: {{}}</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="btn-group" role="group" id="not-add-tickets"><button class="btn btn-default" type="button" data-dismiss="modal">Close </button><button class="btn btn-default" type="button" onclick="passwordQuery()">Add Name to List</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
