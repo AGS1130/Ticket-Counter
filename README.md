@@ -6,3 +6,5 @@ Made Possible by [Brave Software's Muon](https://github.com/brave/muon-quick.git
 
 Databases will need to be decided 
   * Might replace the NoSQL for Redis
+  * Needs routing and React Components
+  * Finish ticket algorithm and SNS for raffle reminder 
