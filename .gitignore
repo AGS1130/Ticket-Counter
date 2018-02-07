@@ -1,7 +1,2 @@
 node_modules
 package-lock.json
-
-#awsmobilejs
-awsmobilejs/.awsmobile/backend-build
-awsmobilejs/\#current-backend-info
-awsmobilejs/

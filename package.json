@@ -23,8 +23,6 @@
     "nodemon": "^1.14.3"
   },
   "dependencies": {
-    "aws-amplify": "^0.1.x",
-    "aws-amplify-react": "^0.1.30",
     "body-parser": "^1.18.2",
     "cheerio": "^1.0.0-rc.2",
     "cookie-parser": "^1.4.3",

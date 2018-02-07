@@ -12,28 +12,11 @@
 </head>
 
 <body>
-    <h1 class="text-center" style="color:rgb(255,255,255);padding-top:130px;"> Pip's Ticket Counter</h1>
-    <div id="awesome-container">
-        <div id="log-in" class="container" style="display:none;background-color:rgba(0,0,0,0.6);">
-            <form>
-                <ul class="flex-outer">
-                    <li><span class="label label-default">User Name </span></li>
-                    <li><span class="label label-default">Password </span></li>
-                </ul><input class="form-control" type="text" required="" placeholder="Enter your user name here"><input class="form-control" type="password" required="" placeholder="Enter your password here" id="entry-field">
-                <div class="checkbox"><label><input type="checkbox" id="toggle" onclick="passwordToggle()"/>Show Password</label></div><button class="btn btn-warning" type="button">Sign Up</button><button class="btn btn-info" type="submit">Log In</button></form>
-        </div>
-        <div id="register" class="container" style="display:block;background-color:rgba(0,0,0,0.6);">
-            <form>
-                <ul class="flex-outer">
-                    <li><span class="label label-default">User Name </span></li>
-                    <li><span class="label label-default">Password </span></li>
-                    <li><span class="label label-default">Pip's Auth Key</span></li>
-                </ul><input class="form-control" type="text" required="" placeholder="Enter your user name here"><input class="form-control" type="text" required="" placeholder="Enter your password here"><input class="form-control" type="text" required=""
-                    placeholder="Enter authentication key"><button class="btn btn-warning" type="button">Log In</button><button class="btn btn-info" type="submit">Sign Up</button></form>
-        </div>
-    </div>
+    <div id="app"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.2.0/umd/react-dom.production.min.js"></script>
     <script src="assets/js/script.min.js"></script>
 </body>
 
